@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_layout"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/MyDimen175dp"
+    android:background="@color/whiteColor">
+
+    <TextView
+        android:id="@+id/idText"
+        style="@style/mission_text_second"
+        android:text="单据编号"
+        android:layout_marginTop="@dimen/MyDimen15dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/idValueText"
+        style="@style/mission_text_main"
+        android:text="12"
+        app:layout_constraintBottom_toBottomOf="@+id/idText"
+        app:layout_constraintLeft_toRightOf="@+id/idText"
+        app:layout_constraintTop_toTopOf="@+id/idText" />
+
+    <TextView
+        android:id="@+id/dateText"
+        android:text="办单日期"
+        style="@style/mission_text_second"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idText" />
+
+    <TextView
+        android:id="@+id/dateValueText"
+        android:text="369"
+        style="@style/mission_text_main"
+        app:layout_constraintBottom_toBottomOf="@+id/dateText"
+        app:layout_constraintLeft_toRightOf="@+id/dateText"
+        app:layout_constraintTop_toTopOf="@+id/dateText" />
+
+    <TextView
+        android:id="@+id/cunameText"
+        android:text="货主"
+        style="@style/mission_text_second"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dateText" />
+
+    <TextView
+        android:id="@+id/cunameValueText"
+        android:text="123456789456132"
+        style="@style/mission_text_main"
+        app:layout_constraintBottom_toBottomOf="@+id/cunameText"
+        app:layout_constraintLeft_toRightOf="@+id/cunameText"
+        app:layout_constraintTop_toTopOf="@+id/cunameText" />
+
+    <TextView
+        android:id="@+id/weightText"
+        android:text="重量/件数"
+        style="@style/mission_text_second"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cunameText" />
+
+    <TextView
+        android:id="@+id/weightValueText"
+        android:text="123456789456132"
+        style="@style/mission_text_main"
+        app:layout_constraintBottom_toBottomOf="@+id/weightText"
+        app:layout_constraintLeft_toRightOf="@+id/weightText"
+        app:layout_constraintTop_toTopOf="@+id/weightText" />
+
+    <TextView
+        android:id="@+id/statusText"
+        android:text="状态"
+        style="@style/mission_text_second"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/weightText" />
+
+    <TextView
+        android:id="@+id/statusValueText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/MyDimen10dp"
+        android:layout_marginStart="@dimen/MyDimen10dp"
+        android:gravity="left"
+        android:text="123456789456132"
+        android:textColor="@color/mainColor"
+        android:textSize="@dimen/mainFontSize"
+        app:layout_constraintBottom_toBottomOf="@+id/statusText"
+        app:layout_constraintLeft_toRightOf="@+id/statusText"
+        app:layout_constraintTop_toTopOf="@+id/statusText" />
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="@dimen/MyDimen0dp"
+        android:layout_height="@dimen/MyDimen1dp"
+        android:layout_marginLeft="@dimen/MyDimen15dp"
+        android:background="@color/lineColor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

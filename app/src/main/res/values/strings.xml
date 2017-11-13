@@ -1,0 +1,20 @@
+<resources>
+    <item name="type_header" type="integer" />
+    <item name="type_footer" type="integer" />
+    <item name="type_child" type="integer" />
+    <string name="app_name">提货助手</string>
+    <string name="title_login">提货助手登录</string>
+    <string name="loading">努力加载中...</string>
+    <string name="title_mission_detail">任务详细</string>
+    <string name="title_mission">任务</string>
+    <string name="toast_valid">重新发送</string>
+    <string name="toast_phone">请输入正确手机号码</string>
+    <string name="phoneToast">请输入手机号码</string>
+    <string name="validToast">请输入验证码</string>
+    <string name="receiveCode">获取验证码</string>
+    <string name="loginBtn">登录</string>
+    <string name="qr_tips">请出示二维码给仓库收发货员验证</string>
+    <string name="error_unknown">服务器发生未知错误</string>
+    <string name="error_timeout">连接超时</string>
+    <string name="message_empty_view">数据为空</string>
+</resources>

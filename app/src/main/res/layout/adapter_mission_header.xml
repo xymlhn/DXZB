@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/MyDimen45dp"
+    android:background="@color/whiteColor">
+
+    <ImageView
+        android:id="@+id/houseImage"
+        android:layout_width="@dimen/MyDimen30dp"
+        android:layout_height="@dimen/MyDimen30dp"
+        android:layout_marginLeft="@dimen/MyDimen15dp"
+        android:layout_marginStart="@dimen/MyDimen15dp"
+        android:src="@mipmap/house"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/storename"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/MyDimen9dp"
+        android:layout_marginStart="@dimen/MyDimen9dp"
+        android:text="A1仓"
+        android:textColor="@color/mainTextColor"
+        android:textSize="@dimen/mainFontSize"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/houseImage"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/contentText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/MyDimen15dp"
+        android:layout_marginLeft="@dimen/MyDimen9dp"
+        android:layout_marginRight="@dimen/MyDimen15dp"
+        android:layout_marginStart="@dimen/MyDimen9dp"
+        android:text="2单 20.987吨/2件"
+        android:textColor="@color/mainColor"
+        android:textSize="@dimen/mainFontSize"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        style="@style/line"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,36 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/mainColor</item>
+        <item name="colorPrimaryDark">@color/mainColor</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="mission_text_main">
+        <item name="android:textSize">@dimen/mainFontSize</item>
+        <item name="android:textColor">@color/mainTextColor</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">left</item>
+        <item name="android:layout_marginLeft">@dimen/MyDimen10dp</item>
+        <item name="android:layout_marginRight">@dimen/MyDimen10dp</item>
+    </style>
+
+    <style name="mission_text_second">
+        <item name="android:textSize">@dimen/secondFontSize</item>
+        <item name="android:textColor">@color/secondTextColor</item>
+        <item name="android:layout_width">@dimen/MyDimen85dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">right</item>
+        <item name="android:layout_marginTop">@dimen/MyDimen10dp</item>
+    </style>
+
+    <style name="line">
+        <item name="android:layout_width">@dimen/MyDimen0dp</item>
+        <item name="android:layout_height">@dimen/MyDimen1dp</item>
+        <item name="android:background">@color/lineColor</item>
+    </style>
+
+</resources>

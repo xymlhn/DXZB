@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/MyDimen93dp"
+    android:background="@color/whiteColor">
+
+    <TextView
+        android:id="@+id/typeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/MyDimen15dp"
+        android:layout_marginTop="@dimen/MyDimen15dp"
+        android:text="丁X6677"
+        android:textColor="@color/mainTextColor"
+        android:textSize="@dimen/mainFontSize"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/weightText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/MyDimen15dp"
+        android:layout_marginTop="@dimen/MyDimen15dp"
+        android:text="10.897吨 1件"
+        android:textColor="@color/mainTextColor"
+        android:textSize="@dimen/mainFontSize"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/idText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/MyDimen15dp"
+        android:text="123456798"
+        android:textColor="@color/secondTextColor"
+        android:textSize="@dimen/secondFontSize"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/contentText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/MyDimen15dp"
+        android:layout_marginLeft="@dimen/MyDimen15dp"
+        android:text="123456798"
+        android:textColor="@color/secondTextColor"
+        android:textSize="@dimen/secondFontSize"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <View
+        android:id="@+id/line"
+        style="@style/line"
+        android:layout_marginLeft="@dimen/MyDimen15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+</android.support.constraint.ConstraintLayout>
